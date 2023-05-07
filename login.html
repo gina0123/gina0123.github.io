@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+<meta charset="utf-8">
+<title>Softwareprojekt</title>
+<link rel="icon" href="images/comment-dots.svg" type="image/icon type">
+
+</head>
+<h2 class="welcomeText">
+    SocialMediaApp
+</h2>
+<form class="login" action="" method="post">
+     
+    <div class="logindata">
+      <label for="uname"><b>Username</b></label>
+        <div>
+            <input id="username" type="text" placeholder="Username" name="uname" required>
+            <i class="uil uil-user"></i>
+        </div>
+    </div>
+    <div class="logindata">
+      <label for="psw"><b>Password</b></label>
+        <div>
+            <input id="password" type="password" placeholder="Password" name="psw" required>
+            <i class="uil uil-eye-slash"></i>
+        </div>
+    </div>
+
+        <button onclick="redirectToMainPage()" class="btn btn-login" type="button">Login</button>
+        <button id="register" onclick="registerUser()" class="btn btn-login" type="button">Registrieren</button>
+</form>
+<script type="text/javascript" src="login.js"></script>
+<script type="text/javascript" src="connect.js"></script>
+
+
+<body>
+
+</body>
+</html>
