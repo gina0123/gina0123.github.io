@@ -196,5 +196,34 @@ bg2.addEventListener('click', () =>{
     changeBackground();
 })
 
+// settings
+
+const settings = document.getElementById('btnSettings');
+const settingsOpen = document.querySelector('.settings');
+
+const openSettings = () => {
+    settingsOpen.style.display = 'grid';
+}
+
+settings.addEventListener('click', openSettings);
+ 
+const closeSettings = (e) => {
+    if(e.target.classList.contains('settings')){
+        settingsOpen.style.display = 'none';
+    }
+}
+
+settingsOpen.addEventListener('click', closeSettings);
+
+//logout
+function logout() {
+    window.location.href = "login.html";
+  }
+
+function changePwd(){
+    //
+}
+
+  
 
 
