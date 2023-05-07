@@ -299,14 +299,41 @@
                 </div>
                 <div class="bg-2">
                     <span></span>
-                    <h5>Dunkel</h5>
+                   <h5>Dunkel</h5>
                 </div>
                 
             </div>
         </div>
     </div>
 </div>
-<script type="text/javascript" src="index.js"></script>
+<div class="settings">
+    <div class="card">
+        <h2>Einstellungen</h2>
+        <div class="change-pw">           
+             <h4>Passwort ändern</h4>            
+                  <div>
+                      <input id="set-pw-input" type="password" placeholder="Neues Passwort" name="psw" required>
+                      <div class="set-pw">
+                        <button id="set-pw-button" onclick="changePwd()" class="btn btn-primary btn-change-pw" disabled>Bestätigen</button>
+                    </div>
+                  </div>
+            </div>       
+       
+        <div class="change-photo">
+            <h4>Profilbild ändern</h4>
+            some input here
+        </div> 
+        <div class="delete-profile">
+            <button class="btn btn-primary btn-logout">Profil löschen</button>
+
+        </div> 
+        <div class="logout">
+            <button onclick="logout()" class="btn btn-primary btn-logout">Logout</button>
+        </div>
+    </div>
+    </div>
+</div>
+<script type="text/javascript" src="mainpage.js"></script>
 
 </body>
 </html>
