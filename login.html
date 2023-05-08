@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="de">
 <head>
+    <body>
     <?xml version="1.0" encoding="iso-8859-1"?>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 <meta charset="utf-8">
 <title>Softwareprojekt</title>
 <link rel="icon" href="images/comment-dots.svg" type="image/icon type">
+<!--DATABASE-->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
 
 </head>
+
 <h2 class="welcomeText">
     SocialMediaApp
 </h2>
@@ -29,14 +34,13 @@
         </div>
     </div>
 
-        <button onclick="redirectToMainPage()" class="btn btn-login" type="button">Login</button>
-        <button id="register" onclick="registerUser()" class="btn btn-login" type="button">Registrieren</button>
+        <button id="login" class="btn btn-login" type="button">Login</button>
+        <button id="register" class="btn btn-login" type="button">Registrieren</button>
 </form>
+<script type="text/javascript" src="register.js"></script>
+<script src="firebaseConfig.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
 <script type="text/javascript" src="login.js"></script>
-<script type="text/javascript" src="connect.js"></script>
-
-
-<body>
 
 </body>
 </html>
