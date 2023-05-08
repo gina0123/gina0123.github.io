@@ -21,7 +21,7 @@ function userLogin(userData, username, password) {
     }
   });
   if (loggedIn) {    
-    window.location.href = "mainpage.html";   
+    window.location.href = "index.html";   
 
   } else {
     wrongUserData(); 
